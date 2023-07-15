@@ -55,12 +55,12 @@ export const menus: MenuData[] = [
     Icon: FaEye,
     Component: Works,
   },
-  {
-    id: 4,
-    label: "blog",
-    Icon: FaRegNewspaper,
-    Component: DevBlogs,
-  },
+  // {
+  //   id: 4,
+  //   label: "blog",
+  //   Icon: FaRegNewspaper,
+  //   Component: DevBlogs,
+  // },
   {
     id: 5,
     label: "stats",
@@ -73,12 +73,12 @@ export const menus: MenuData[] = [
     Icon: FiSend,
     Component: Contact,
   },
-  {
-    id: 7,
-    label: "guest book",
-    Icon: MdComputer,
-    Component: GuestBook,
-  },
+  // {
+  //   id: 7,
+  //   label: "guest book",
+  //   Icon: MdComputer,
+  //   Component: GuestBook,
+  // },
 ]
 
 export const socialMedia: SocialMedia[] = [
@@ -120,7 +120,7 @@ export const socialMedia: SocialMedia[] = [
     label: "Discord",
     logoColor: "#5865f2",
     mediaUrl: "https://www.discord.com",
-    info: "Let's chat on Discord. My username - Tyrant#4185",
+    info: "Let's chat on Discord. My username - Khôi#9745",
   },
   // {
   //   id: 6,

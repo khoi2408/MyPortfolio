@@ -14,7 +14,7 @@ export default function Menus({ showSideMenu }: Props) {
   const menuId = useReactiveVar(currentMenu)
 
   return (
-    <header className="xl:w-[7.2rem] lg:w-[7rem] py-6 h-full mr-4 hidden lg:flex flex-col justify-between">
+    <header className="xl:w-[7.2rem] lg:w-[7rem] py-6 h-full mr-4 hidden lg:flex flex-col">
       {/* humburbar menu */}
       <div
         onClick={() => showSideMenu(true)}
@@ -28,17 +28,7 @@ export default function Menus({ showSideMenu }: Props) {
       </div>
 
       {/* guest book btn */}
-      <div
-        onClick={() => currentMenu(7)}
-        className="h-[7.2rem] rounded-lg bg-gray-900 flex items-center justify-center cursor-pointer group"
-      >
-        <div className="relative">
-          <BsBookHalf className="text-4xl text-gray-300 transition-all duration-300 group-hover:text-main-orange" />
-          {/* <span className="absolute flex items-center justify-center w-6 h-6 text-lg text-gray-800 rounded-full -top-2 -right-3 bg-main-orange">
-            0
-          </span> */}
-        </div>
-      </div>
+      
 
       <div className="overflow-hidden rounded-lg">
         {menus.slice(0, 6).map((m, i) => (
