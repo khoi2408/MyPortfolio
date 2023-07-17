@@ -78,7 +78,7 @@ html {
   border-radius: 50%;
   background: linear-gradient(
     135deg,
-    rgba(246, 184, 70, 0.4) 0%,
+    rgba(66, 132, 231, 0.4) 0%,
     rgba(246, 184, 70, 0.01) 100%
   );
 }
@@ -131,7 +131,7 @@ html {
   z-index: -1;
   background: linear-gradient(
     135deg,
-    rgba(133, 87, 2, 0.4) 0%,
+    rgba(66, 132, 231, 0.4) 0%,
     rgba(246, 184, 70, 0.01) 100%
   );
 }
@@ -139,7 +139,7 @@ html {
 .overlay {
   background: linear-gradient(
     135deg,
-    rgba(133, 87, 2, 0.4) 0%,
+    rgba(66, 132, 231, 0.4) 0%,
     rgba(246, 184, 70, 0.01) 100%
   );
 }
@@ -189,7 +189,7 @@ html {
   border-radius: 50%;
   background: linear-gradient(
     135deg,
-    rgba(246, 184, 70, 0.4) 0%,
+    rgba(66, 132, 231, 0.4) 0%,
     rgba(246, 184, 70, 0.01) 100%
   );
 }
@@ -233,7 +233,7 @@ html {
   height: 100%;
   background: linear-gradient(
     135deg,
-    rgba(246, 184, 70, 0.4) 0%,
+    rgba(66, 132, 231, 0.4) 0%,
     rgba(246, 184, 70, 0.01) 100%
   );
   z-index: 2;
