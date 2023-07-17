@@ -15,30 +15,30 @@ export default function Stats() {
   const [totalArticles, setTotalArticles] = useState<number>(0)
   const [articleReactions, setArticleReactions] = useState<number>(0)
 
-  useEffect(() => {
-    async function fetchApiData(): Promise<void> {
-      const apiData = await Promise.allSettled<{
-        status: "fulfilled" | "rejected"
-        value?: number
-        reason?: string
-      }>([
-        fetchData("/api/dev/totalArticles"),
-        fetchData("/api/dev/reactions"),
-        fetchData("/api/analytics/traffics"),
-      ])
+  // useEffect(() => {
+  //   async function fetchApiData(): Promise<void> {
+  //     const apiData = await Promise.allSettled<{
+  //       status: "fulfilled" | "rejected"
+  //       value?: number
+  //       reason?: string
+  //     }>([
+  //       fetchData("/api/dev/totalArticles"),
+  //       fetchData("/api/dev/reactions"),
+  //       fetchData("/api/analytics/traffics"),
+  //     ])
 
-      apiData[0].status === "fulfilled" &&
-        typeof apiData[0].value === "number" &&
-        setTotalArticles(apiData[0].value)
-      apiData[1].status === "fulfilled" &&
-        typeof apiData[1].value === "number" &&
-        setArticleReactions(apiData[1].value)
-      apiData[2].status === "fulfilled" &&
-        typeof apiData[2].value === "number" &&
-        setPageViews(apiData[2].value)
-    }
-    fetchApiData()
-  }, [])
+  //     apiData[0].status === "fulfilled" &&
+  //       typeof apiData[0].value === "number" &&
+  //       setTotalArticles(apiData[0].value)
+  //     apiData[1].status === "fulfilled" &&
+  //       typeof apiData[1].value === "number" &&
+  //       setArticleReactions(apiData[1].value)
+  //     apiData[2].status === "fulfilled" &&
+  //       typeof apiData[2].value === "number" &&
+  //       setPageViews(apiData[2].value)
+  //   }
+  //   fetchApiData()
+  // }, [])
 
   return (
     <section className="h-full overflow-y-scroll myScroll">
