@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { AiFillLinkedin } from "react-icons/ai"
 import { BsFillCloudArrowDownFill } from "react-icons/bs"
 import { FaFacebookF } from "react-icons/fa"

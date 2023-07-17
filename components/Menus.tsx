@@ -1,10 +1,7 @@
-import { useState } from "react"
-import MenuBtn from "./MenuBtn"
-import { BsBookHalf } from "react-icons/bs"
-import { menus } from "../data"
-import SideMenuLb from "./SideMenuLb"
 import { ReactiveVar, useReactiveVar } from "@apollo/client"
 import { currentMenu } from "../apollo-client"
+import { menus } from "../data"
+import MenuBtn from "./MenuBtn"
 
 interface Props {
   showSideMenu: ReactiveVar<boolean>

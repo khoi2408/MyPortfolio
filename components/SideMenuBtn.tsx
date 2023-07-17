@@ -1,5 +1,4 @@
 import { ReactiveVar } from "@apollo/client"
-import { Dispatch, SetStateAction } from "react"
 import { MenuData } from "../types"
 
 interface Props {

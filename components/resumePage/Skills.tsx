@@ -1,12 +1,10 @@
 import { useQuery } from "@apollo/client"
 import { FaReact } from "react-icons/fa"
+import resumeOperations from "../../graphqlOperations/resume"
 import { SkillData } from "../../types"
-import BackEnd from "./BackEnd"
 import FrontEnd from "./FrontEnd"
 import IconTitle from "./IconTitle"
 import Knowledge from "./Knowledge"
-import Languages from "./Languages"
-import resumeOperations from "../../graphqlOperations/resume"
 
 interface SkillQuery {
   skills: SkillData[]
