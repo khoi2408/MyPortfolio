@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       colors: {
         "main-dark": "#111928",
-        "main-orange": "#f59e0b",
+        "main-orange": "#3681e8",
       },
       transitionProperty: {
         width: "width",

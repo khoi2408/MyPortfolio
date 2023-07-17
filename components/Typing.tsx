@@ -8,13 +8,13 @@ export default function Typing() {
           typewriter
 
             .typeString(
-              '<span style="color: #f59e0b; font-size: 14px; font-weight: 400;">Front-end Developer</span>'
+              '<span style="color: #3681e8; font-size: 14px; font-weight: 400;">Front-end Developer</span>'
             )
             .pauseFor(3500)
             .deleteAll(17)
 
             .typeString(
-              '<span style="color: #f59e0b; font-size: 14px; font-weight: 400;">Freelancer</span>'
+              '<span style="color: #3681e8; font-size: 14px; font-weight: 400;">Freelancer</span>'
             )
             .pauseFor(3500)
             .deleteAll(17)

@@ -65,7 +65,7 @@ html {
 }
 
 .customCircle::first-letter {
-  color: #f59e0b;
+  color: #3681e8;
 }
 
 .customCircle::before {
@@ -155,14 +155,14 @@ html {
 
 .swiper-pagination .swiper-pagination-bullet {
   background: transparent !important;
-  border: 0.1rem solid #f59e0b;
+  border: 0.1rem solid #3681e8;
   width: 0.9rem;
   height: 0.9rem;
   margin: 0 0.3rem !important;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-  background: #f59e0b !important;
+  background: #3681e8 !important;
 }
 
 .bgSlider .swiper-fade .swiper-slide img {
@@ -249,7 +249,7 @@ html {
 .tech-func ul li::before,
 .prose ul li::before {
   content: "\2022";
-  color: #f59e0b;
+  color: #3681e8;
   font-weight: bold;
   display: inline-block;
   width: 1.8rem;

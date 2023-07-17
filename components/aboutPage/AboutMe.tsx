@@ -30,10 +30,10 @@ export default function AboutMe() {
       </article>
 
       <ul className="location grid grid-cols-1 sm:grid-cols-2 mt-6 gap-y-2">
-        <MyInfo field="age" value="19" />
-        <MyInfo field="residence" value="Sweden" />
+        <MyInfo field="age" value="23" />
+        <MyInfo field="residence" value="Ho Chi Minh City" />
         <MyInfo field="freelance" value="Available" />
-        <MyInfo field="address" value="Stockholm, Sweden" />
+        <MyInfo field="address" value="106/2 Phan Van Han, Ward 17, Binh Thanh District, Ho Chi Minh City" />
       </ul>
     </div>
   )
