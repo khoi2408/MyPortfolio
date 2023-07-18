@@ -37,8 +37,7 @@ export default function ProfileCard({ profileData }: Props) {
           <MyLink
             name="download cv"
             Icon={BsFillCloudArrowDownFill}
-            // url={profileData.cv}
-            url={'/'}
+            url={profileData.cv}
             border
           />
           <MyLink
