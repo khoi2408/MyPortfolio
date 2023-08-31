@@ -33,7 +33,7 @@ export default function AboutMe() {
         <MyInfo field="age" value="23" />
         <MyInfo field="residence" value="Ho Chi Minh City" />
         <MyInfo field="freelance" value="Available" />
-        <MyInfo field="address" value="106/2 Phan Van Han, Ward 17, Binh Thanh District, Ho Chi Minh City" />
+        <MyInfo field="address" value="Binh Thanh District, Ho Chi Minh City" />
       </ul>
     </div>
   )
