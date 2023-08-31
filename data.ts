@@ -121,7 +121,7 @@ export const services: ServiceData[] = [
     title: "Other",
     Icon: SiPlatformdotsh,
     description:
-      "Version control (Github, Gitlab); Auto Testing (Playwright); Familiar with npm, yarn; etc.",
+      "Version control (Github, Gitlab); Auto Testing (Playwright); Familiar with npm, yarn; Firebase; etc.",
   },
 ]
 
