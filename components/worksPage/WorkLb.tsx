@@ -77,16 +77,7 @@ export default function WorkLb({ workId, reactiveVar }: Props) {
                     view
                     <HiOutlineViewGridAdd className="text-3xl" />
                   </a>
-
-                  <a
-                    rel="noreferrer"
-                    href={workData.work.githubUrl}
-                    target="_blank"
-                    className="text-[1.4rem] flex items-center gap-2 rounded-full py-1.5 px-6 tracking-wide font-semibold capitalize shadow-lg hover:bg-gray-700 transition-all duration-300 text-white bg-gray-900"
-                  >
-                    github
-                    <BsGithub className="text-3xl" />
-                  </a>
+                  
                 </div>
               </div>
               <p className="text-xl tracking-wide text-gray-400 capitalize">
