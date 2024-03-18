@@ -1,15 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import { AiFillLinkedin } from "react-icons/ai"
-import { BsFillCloudArrowDownFill } from "react-icons/bs"
-import { FaFacebookF } from "react-icons/fa"
-import { ProfileData } from "../types"
-import MediaIcons from "./MediaIcons"
-import MyLink from "./MyLink"
-import Slide from "./Slide"
-import Typing from "./Typing"
+import { AiFillLinkedin } from "react-icons/ai";
+import { BsFillCloudArrowDownFill } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { ProfileData } from "../types";
+import MediaIcons from "./MediaIcons";
+import MyLink from "./MyLink";
+import Slide from "./Slide";
+import Typing from "./Typing";
 
 interface Props {
-  profileData: ProfileData
+  profileData: ProfileData;
 }
 
 export default function ProfileCard({ profileData }: Props) {
@@ -35,7 +35,7 @@ export default function ProfileCard({ profileData }: Props) {
 
         <div className="absolute bottom-0 left-0 flex w-full h-28 borderLeft customLine">
           <MyLink
-            name="download cv"
+            name="review cv"
             Icon={BsFillCloudArrowDownFill}
             url={profileData.cv}
             border
@@ -48,5 +48,5 @@ export default function ProfileCard({ profileData }: Props) {
         </div>
       </div>
     </div>
-  )
+  );
 }

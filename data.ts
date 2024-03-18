@@ -100,14 +100,14 @@ export const services: ServiceData[] = [
     title: "Front-end",
     Icon: SiNextdotjs,
     description:
-      "HTML, CSS, JavaScript, Typescript, React, Next.js, Bootstrap, Material UI, etc.",
+      "HTML, CSS, JavaScript, Typescript, React, Next.js, Bootstrap, Material UI, PHP, etc.",
   },
   {
     id: 2,
     title: "Wordpress",
     Icon: SiWordpress,
     description:
-      "With pages builder: Elementor, Avada, etc. Plugins: Woocommerce, Yoast SEO, etc.",
+      "With website builder: Flatsome, Elementor, Avada, etc.",
   },
   {
     id: 3,
